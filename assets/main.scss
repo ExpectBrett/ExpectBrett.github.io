@@ -1,28 +1,65 @@
 ---
 ---
 
-/* brand colours */
+/* Brand Colors */
 $beige: #fcf4e8;
 $dark:  #312a26;
 
-/* base */
-body { background:$beige; margin:0; font-family:Helvetica, Arial, sans-serif; }
+/* Base */
+body {
+  background: $beige;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-/* header */
-.site-header { background:$beige; padding:1.2rem 2rem; }
-.site-header .wrapper { display:flex; align-items:center; justify-content:space-between; }
-.site-logo {
-  height: 150px;   // Try 80–100px depending on your preference
-  width: auto;
+/* Header */
+.site-header {
+  background: $beige;
+  padding: 1.2rem 2.5rem;
+}
+
+.site-header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 120px; /* ensures room for bigger logo */
+}
+
+/* Logo */
+.site-title {
+  margin-right: auto;
   display: block;
 }
 
-/* nav links */
-.site-nav a { margin-left:1.25rem; color:#000; text-decoration:none; font-weight:500; }
-.site-nav a:hover { text-decoration:underline; }
+.site-logo {
+  height: 150px !important;
+  width: auto;
+  display: block;
+  max-height: none;
+}
 
-/* book-now button */
-.btn-book { background:$dark; color:#fff !important; padding:0.5rem 1rem; border-radius:4px; }
-.btn-book:hover { background:#000; }
+/* Nav Links */
+.site-nav a {
+  margin-left: 1.5rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
 
-/* hero extras (optional, you already have) */
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Book Now Button */
+.btn-book {
+  background: $dark;
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.btn-book:hover {
+  background: #000;
+}
