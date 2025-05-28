@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | Everlight Rental Co</title>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | Everlight Rental Co</title>
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 </head>
 <body>
-
   {% include header.html %}
-
-  <main aria-label="Content">
-    {{ content }}
-  </main>
-
+  {{ content }}
 </body>
 </html>
