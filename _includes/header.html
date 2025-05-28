@@ -1,13 +1,17 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
+    <!-- Logo on the left -->
     <a class="site-title" href="{{ '/' | relative_url }}">
-      <!-- logo image -->
       <img src="{{ '/assets/logo.png' | relative_url }}" alt="Everlight Rental Co logo" class="site-logo">
     </a>
 
-    <!-- auto-generated menu links -->
+    <!-- Hard-coded nav links on the right -->
     <nav class="site-nav">
-      {% include nav.html %}
+      <a href="{{ '/services/' | relative_url }}">Services</a>
+      <a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a href="{{ '/book-now/' | relative_url }}">Book Now</a>
     </nav>
   </div>
 </header>
