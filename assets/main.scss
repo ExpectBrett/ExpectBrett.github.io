@@ -9,9 +9,9 @@ $dark:  #312a26;
 body { background:$beige; margin:0; font-family:Helvetica, Arial, sans-serif; }
 
 /* header */
-.site-header { background:$beige; padding:1.75rem 2rem; }
+.site-header { background:$beige; padding:1.2rem 2rem; }
 .site-header .wrapper { display:flex; align-items:center; justify-content:space-between; }
-.site-logo { height:160px; display:block; }
+.site-logo { height:110px; display:block; }
 
 /* nav links */
 .site-nav a { margin-left:1.25rem; color:#000; text-decoration:none; font-weight:500; }
