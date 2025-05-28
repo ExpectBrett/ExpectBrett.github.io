@@ -1,12 +1,23 @@
 title: Everlight Rental Co
+description: Photo Booth and Event Rentals
 theme: minima
 
-# show your pages in the top nav
+# Show navigation links in header
 show_pages_in_navigation: true
+
+# Files that should appear in the top navigation bar (in this order)
 header_pages:
   - index.md       # Home
-  - services.md    # Services (was “packages”)
-  - about.md       # About
+  - services.md    # Services
   - gallery.md     # Gallery
-  - booknow.md     # Book Now (new!)
+  - about.md       # About
   - contact.md     # Contact
+  - booknow.md     # Book Now
+
+# Optional: add your logo image path for SEO/social cards
+logo: /assets/logo.png
+
+# GitHub Pages plugin support (default)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
