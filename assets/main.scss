@@ -1,18 +1,24 @@
 ---
 ---
 
+/* brand colours */
 $beige: #e7dfd5;
 $dark:  #312a26;
 
-body { background: $beige; margin:0; font-family:sans-serif; }
+/* base */
+body { background:$beige; margin:0; font-family:Helvetica, Arial, sans-serif; }
 
+/* header */
 .site-header { background:$beige; padding:0.75rem 2rem; }
 .site-header .wrapper { display:flex; align-items:center; justify-content:space-between; }
-
 .site-logo { height:46px; display:block; }
 
+/* nav links */
 .site-nav a { margin-left:1.25rem; color:#000; text-decoration:none; font-weight:500; }
 .site-nav a:hover { text-decoration:underline; }
 
-.site-nav .btn-book { background:$dark; color:#fff !important; padding:0.5rem 1rem; border-radius:4px; }
-.site-nav .btn-book:hover { background:#000; }
+/* book-now button */
+.btn-book { background:$dark; color:#fff !important; padding:0.5rem 1rem; border-radius:4px; }
+.btn-book:hover { background:#000; }
+
+/* hero extras (optional, you already have) */
