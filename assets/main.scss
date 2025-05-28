@@ -55,3 +55,9 @@ body {
   font-weight: 600;
 }
 .cta-btn:hover { background: #000; }
+
+/* logo & header adjustments */
+.site-header .wrapper { display: flex; align-items: center; }
+.site-title { margin-right: auto; }    /* pushes menu to the right */
+.site-logo  { height: 48px; display: block; }  /* resize logo */
+
