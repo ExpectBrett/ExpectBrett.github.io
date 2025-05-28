@@ -1,0 +1,12 @@
+title: Everlight Rental Co
+theme: minima
+
+# show your pages in the top nav
+show_pages_in_navigation: true
+header_pages:
+  - index.md       # Home
+  - services.md    # Services (was “packages”)
+  - about.md       # About
+  - gallery.md     # Gallery
+  - booknow.md     # Book Now (new!)
+  - contact.md     # Contact
